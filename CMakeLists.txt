@@ -65,7 +65,8 @@ endif()
 # Begin target SafetyLimiter
 
 include_directories(safety-limiter)
-include_directories(hiir)
+# HIIR
+include_directories(.)
 
 set(SafetyLimiter_cpp_files
     plugins/SafetyLimiter/SCSafetyLimiter.cpp
