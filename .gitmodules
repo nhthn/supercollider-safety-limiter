@@ -1,0 +1,6 @@
+[submodule "safety-limiter"]
+	path = safety-limiter
+	url = https://github.com/nhthn/safety-limiter.git
+[submodule "hiir"]
+	path = hiir
+	url = https://github.com/unevens/hiir

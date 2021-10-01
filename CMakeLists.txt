@@ -64,9 +64,12 @@ endif()
 ####################################################################################################
 # Begin target SafetyLimiter
 
+include_directories(safety-limiter)
+include_directories(hiir)
+
 set(SafetyLimiter_cpp_files
-    plugins/SafetyLimiter/SafetyLimiter.cpp
-    plugins/SafetyLimiter/SafetyLimiter.hpp
+    plugins/SafetyLimiter/SCSafetyLimiter.cpp
+    plugins/SafetyLimiter/SCSafetyLimiter.hpp
 )
 set(SafetyLimiter_sc_files
     plugins/SafetyLimiter/SafetyLimiter.sc
