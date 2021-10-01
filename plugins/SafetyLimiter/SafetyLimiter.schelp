@@ -1,0 +1,26 @@
+class:: SafetyLimiter
+summary:: A zero-latency true peak safety limiter
+related:: TODO
+categories:: UGens>TODO
+
+description::
+
+A zero-latency true peak safety limiter
+
+
+classmethods::
+
+method::ar, kr
+
+argument::TODO
+
+argument::TODO
+
+
+examples::
+
+code::
+
+{ SafetyLimiter.ar(/* TODO */) }.play
+
+::
