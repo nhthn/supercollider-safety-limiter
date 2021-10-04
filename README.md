@@ -1,8 +1,10 @@
-# SuperCollider SafetyLimiter
+# SafetyLimiter
 
-Author: Nathan Ho
+SafetyLimiter is a SuperCollider UGen that serves as a transparent brickwall limiter. It uses 4x oversampling to compute the signal peak, therefore making it a "true peak" limiter, and unlike the built-in Limiter, it induces no latency on the input signal.
 
-A zero-latency true peak safety limiter
+For the core DSP, visit the [safety-limiter](https://github.com/nhthn/safety-limiter) repo.
+
+For audio examples, visit the [thread on scsynth.org](https://scsynth.org/t/safetylimiter-true-peak-limiter/4639).
 
 ### Requirements
 
