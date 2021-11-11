@@ -60,14 +60,14 @@ jobs:
       if: runner.os != 'Windows'
       shell: bash
       working-directory: ${{ env.INSTALL_PATH }}
-      run: zip -r "$ARCHIVE_NAME" "SafetyLimiter"
+      run: zip -r "$ARCHIVE_NAME" "SuperColliderSafetyLimiter"
 
       # Gather all files in a zip
     - name: Zip up build (Windows)
       if: runner.os == 'Windows'
       shell: bash
       working-directory: ${{ env.INSTALL_PATH }}
-      run: 7z a "$ARCHIVE_NAME" -tzip "SafetyLimiter"
+      run: 7z a "$ARCHIVE_NAME" -tzip "SuperColliderSafetyLimiter"
 
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v2
