@@ -17,6 +17,7 @@ Clone the project:
 
     git clone https://github.com/nhthn/supercollider-safety-limiter
     cd supercollider-safety-limiter
+    git submodule update --init --recursive
     mkdir build
     cd build
 
